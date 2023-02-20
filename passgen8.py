@@ -1,4 +1,4 @@
-# allowed characters in chars.txt
+# allowed characters are in chars.txt
 import random
 import smtplib
 from email.mime.multipart import MIMEMultipart

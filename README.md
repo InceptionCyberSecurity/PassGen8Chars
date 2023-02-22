@@ -1,6 +1,6 @@
 # Password Generation
 The chars.txt file is used to define the allowed characters. Subsequently, an 8 character password is generated.
-This is the sent to a user defined email. Alter the email in passgen8.py
+This is the sent to a user defined email. Alter the email in passgen8.py to the one you want the new password to be sent to.
 Written by Nathan Jones nathan.jones@arcadeusops.com
 
 ## Ethical Notice

@@ -12,3 +12,6 @@ Copyright (c) ArcadeusOPS
 
 # TODO
 User input at start of script to define the email that new password is sent to.
+
+# Bugs
+Send issues to info@arcadeusops.com stating nature of issue. A screenshot will help too. Thanks.

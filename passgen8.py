@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-
+# define password set
 def generate_password(character_set):
     password = ''
     character_file = open(character_set, 'r+')
@@ -16,16 +16,13 @@ def generate_password(character_set):
         password = str(password) + str(character_array[raw].rstrip('\n'))
     character_file.close()
     return password
-
 # print genetrated password on screen
 file_name = "chars.txt"
 print(generate_password(file_name))
-
 # save generated password to file pass8.txt
 txtFileWriter = open("pass8.txt", "a") # what does the "a" do ?
 txtFileWriter.write("password")
 txtFileWriter.close()
-
 # send pass8.txt to user defined email
 sender_email = "info@arcacdeusops.com" # this does  not change
 receiver_email = "xyz1@gmail.com" # change this to user's secondary email

@@ -7,8 +7,10 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 time.sleep(8)
+print("   ")
 print(" SPECIFY YOUR Send/Recieve MAILs LINE LINES 28 and 29 BEFORE YOU BEGIN! ")
-print( " Terminate by hitting Ctrl+C or Ctrl+Z if you havent done this. ")
+print(" Terminate by hitting Ctrl+C or Ctrl+Z if you havent done this. ")
+print("   ")
 # define password set
 def generate_password(character_set):
     password = ''
@@ -47,4 +49,5 @@ email_session.starttls()
 email_session.login(sender_email,'password')
 email_session.sendmail(sender_email,receiver_email,my_message)
 email_session.quit()
-print("YOUR MAIL HAS BEEN SENT SUCCESSFULLY")
+print("   ")
+print("YOUR MAIL HAS BEEN SENT SUCCESSFULLY TO" reciever_email)

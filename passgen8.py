@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # allowed characters are in chars.txt
 import random
 import smtplib

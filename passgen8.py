@@ -1,10 +1,14 @@
 # allowed characters are in chars.txt
 import random
 import smtplib
+import time
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
+time.sleep(8)
+print(" SPECIFY YOUR Send/Recieve MAILs LINE LINES 28 and 29 BEFORE YOU BEGIN! ")
+print( " Terminate by hitting Ctrl+C or Ctrl+Z if you havent done this. ")
 # define password set
 def generate_password(character_set):
     password = ''
@@ -25,7 +29,7 @@ txtFileWriter.write("password")
 txtFileWriter.close()
 # send pass8.txt to user defined email
 sender_email = "info@arcacdeusops.com" # this does  not change
-receiver_email = "xyz1@gmail.com" # change this to user's secondary email
+receiver_email = "ducatinat@gmail.com" # change this to user's secondary email
 message = MIMEMultipart()
 message["From"] = sender_email
 message['To'] = receiver_email

@@ -10,7 +10,7 @@ from email import encoders
 time.sleep(8)
 print("   ")
 print(" Specify your Send/Recieve mails in LINES 28 and 29 BEFORE YOU BEGIN! ")
-print(" Terminate by hitting Ctrl+C or Ctrl+Z if you haven't done this. ")
+print(" Terminate by hitting Ctrl+C or Ctrl+Z if you haven't done this yet. ")
 print("   ")
 # define password set
 def generate_password(character_set):

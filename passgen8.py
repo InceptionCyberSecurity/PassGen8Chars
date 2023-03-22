@@ -8,8 +8,8 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 print("   ")
-print(" This Python script will generate an 8 charcter password using chars.txt. ")
-print(" The resulting password will be sent to an email of your choice. ")
+print(" This Python script will quickly generate an 8 character password using the included chars.txt. ")
+print(" The resulting password will be sent to an email of your choice. Make sure your emails are encrypted.")
 print("   ")
 print(" Specify your Send/Recieve emails in LINES 38 and 39 BEFORE you begin ! ")
 print(" Terminate by hitting Ctrl+C or Ctrl+Z if you haven't done this yet. ")
@@ -40,7 +40,7 @@ receiver_email = "nathan.jones@arcadeusops.com" # CHANGE THIS
 message = MIMEMultipart()
 message["From"] = sender_email
 message['To'] = receiver_email
-message['Subject'] = "Reset Info"
+message['Subject'] = "Your Reset Info"
 file = "pass8.txt"
 attachment = open(file,'rb')
 obj = MIMEBase('application','octet-stream')

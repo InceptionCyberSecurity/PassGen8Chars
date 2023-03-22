@@ -7,11 +7,15 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-time.sleep(8)
 print("   ")
-print(" Specify your Send/Recieve mails in LINES 34 and 35 BEFORE YOU BEGIN! ")
+print(" This Python script will generate an 8 charcter password using chars.txt. ")
+print(" The resulting password will be sent to an email of your choice. ")
+print("   ")
+print(" Specify your Send/Recieve emails in LINES 38 and 39 BEFORE you begin ! ")
 print(" Terminate by hitting Ctrl+C or Ctrl+Z if you haven't done this yet. ")
+print(" This script will begin automatically ........ ")
 print("   ")
+time.sleep(25)
 # define password set
 def generate_password(character_set):
     password = ''
@@ -31,8 +35,8 @@ txtFileWriter = open("pass8.txt", "a") # what does the "a" do ?
 txtFileWriter.write("password")
 txtFileWriter.close()
 # send pass8.txt to user defined email
-sender_email = "info@arcacdeusops.com" # this does  not change
-receiver_email = "ducatinat@gmail.com" # change this to user's secondary email
+sender_email = "info@arcacdeusops.com" # CHANGE THIS
+receiver_email = "nathan.jones@arcadeusops.com" # CHANGE THIS
 message = MIMEMultipart()
 message["From"] = sender_email
 message['To'] = receiver_email

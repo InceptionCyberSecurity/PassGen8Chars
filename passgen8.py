@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# allowed characters are in chars.txt
+# allowed characters are in chars.txt. Edit as you see fit
 import random
 import smtplib
 import time
@@ -9,7 +9,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 time.sleep(8)
 print("   ")
-print(" Specify your Send/Recieve mails in LINES 28 and 29 BEFORE YOU BEGIN! ")
+print(" Specify your Send/Recieve mails in LINES 34 and 35 BEFORE YOU BEGIN! ")
 print(" Terminate by hitting Ctrl+C or Ctrl+Z if you haven't done this yet. ")
 print("   ")
 # define password set

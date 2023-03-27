@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# allowed characters are in chars.txt. Edit as you see fit
+# allowed characters are in chars.txt. Edit as you see fit 
 # Nathan Jones nathan.jones@arcadeusops.com
 import random
 import smtplib

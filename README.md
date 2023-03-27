@@ -5,7 +5,7 @@ This is the sent to a user defined email. Alter the email in passgen8.py to the 
 Written by Nathan Jones nathan.jones@arcadeusops.com <br/>
 
 ## Ethical Notice
-The original code is written by ArcadeusOPS, who are not responsible for misuse of this security tool. STAY LEGAL !!<br/>
+ArcadeusOPS are not responsible for misuse of this security tool. STAY LEGAL !!<br/>
 
 ## License
 MIT License

@@ -8,9 +8,9 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 print("   ")
-print(" This Python script will quickly generate an 8 character password using the included chars.txt. ")
-print(" The resulting password will be sent to an email of your choice. Make sure your email server uses encryption.")
-print(" Specify your Send/Recieve emails in LINES 39 and 40 BEFORE you begin ! ")
+print(" This Python script will generate an 8 character password using chars.txt. ")
+print(" The new password will be sent to an email of your choice. Make sure your email server uses encryption.")
+print(" Specify your Send/Recieve emails in LINES 37 and 38 BEFORE you begin ! ")
 print(" Terminate by hitting Ctrl+C or Ctrl+Z if you haven't done this yet. ")
 print(" This script will begin automatically ........ ")
 print("   ")
@@ -54,4 +54,4 @@ email_session.login(sender_email,'password')
 email_session.sendmail(sender_email,receiver_email,my_message)
 email_session.quit()
 print("   ")
-print(" YOUR MAIL HAS BEEN SENT SUCCESSFULLY TO "); receiver_email
+print(" YOUR NEW PASSWORD HAS BEEN SENT TO "); receiver_email

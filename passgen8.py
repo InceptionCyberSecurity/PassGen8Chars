@@ -31,7 +31,7 @@ def generate_password(character_set):
 file_name = "chars.txt"
 print(generate_password(file_name))
 # save generated password to file pass8.txt
-txtFileWriter = open("pass8.txt", "a") # what does the "a" do ?
+txtFileWriter = open("pass8.txt", "a")
 txtFileWriter.write("password")
 txtFileWriter.close()
 # send pass8.txt to user defined email

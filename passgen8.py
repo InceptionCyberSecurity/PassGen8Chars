@@ -54,4 +54,4 @@ email_session.login(sender_email,'password')
 email_session.sendmail(sender_email,receiver_email,my_message)
 email_session.quit()
 print("   ")
-print(" YOUR MAIL HAS BEEN SENT SUCCESSFULLY TO reciever_email ")
+print(" YOUR MAIL HAS BEEN SENT SUCCESSFULLY TO "); receiver_email
